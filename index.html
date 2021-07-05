@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRAW</title>
+</head>
+<body>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/paint.css'>
+
+
+
+    <div id = "first">
+        
+        <button class="items colors" id="strok_color_btn"> stroke Color <input class="eventListen" id="strok_color" type="color" value="black"></button> <br>
+        <button class="items colors" id="fill_color_btn"> Fill Color <input class="eventListen" id="fill_color" type="color" value="black"></button> <br>
+        <button class="items shapes" id="line">\</button> <br>
+        <button class="items shapes" id="box">&#x25A1;</button> <br>
+        <button class="items shapes" id="circle">&#9675;&#10;&#13;</button> <br>
+        <button class="items shapes" id="free_hand">&#128398;</button> <br>
+        <button class="items shapes" id="erase">&#8998;</button> <br>
+        <canvas id="my-canvas"> </canvas>
+    </div>
+
+
+    <button id="second" class="shapes">Save</button>
+
+    
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/paint.js"></script>
+
+</body>
+</html>
